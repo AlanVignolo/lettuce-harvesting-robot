@@ -36,13 +36,13 @@ Measured on bench, under controlled indoor lighting:
 
 | Detector | Metric |
 |---|---|
-| Reference tape (marker) detection | 90.0% recall (18/20), 3.2 mm mean localization error |
+| Reference tape (marker) detection | 97.5% correct detections (195/200 images) |
 | Tube detection | 92.9% recall (13/14), 4.7 mm mean localization error |
-| Lettuce maturity classification | 88.2% weighted-average precision (3-class: mature / immature / empty) |
+| Lettuce maturity classification | 88.2% weighted-average precision (3-class: mature / immature / empty), on a 25-image validation set |
 | Vision-assisted grasp success | 80% of attempts |
 | Open-loop positioning error | ~1% of commanded distance |
 
-Figures are the ones backed by an explicit confusion matrix and test set in the report's compiled chapters (`Informe/03_Desarrollo/3.5_ia_vision/`); earlier draft sections with different, less-documented numbers were left out of the final report and are not cited here.
+Sample sizes are small — this is bench validation on a single prototype, not a large-scale study.
 
 ## Limitations
 
